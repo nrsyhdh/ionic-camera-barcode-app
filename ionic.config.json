@@ -1,5 +1,7 @@
 {
   "name": "camera-barcode-app",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
