@@ -10,6 +10,7 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 
 import { Camera } from "@ionic-native/camera/ngx";
+import { BarcodeScanner } from "@ionic-native/barcode-scanner/ngx";
 
 @NgModule({
 	declarations: [AppComponent],
@@ -17,6 +18,7 @@ import { Camera } from "@ionic-native/camera/ngx";
 	imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
 	providers: [
 		Camera,
+		BarcodeScanner,
 		StatusBar,
 		SplashScreen,
 		{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
